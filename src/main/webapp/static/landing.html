@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>ERS Portal</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    button {
+      background-color: #3366FF;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    input[type=text],
+    input[type=number] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+  </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="getAllRequests(getResponse)">
+  <h1 id="greeting-header">Welcome to the ERS Portal</h1>
+  <div hidden id="request-form">
+    <h2>New reimbursement request:</h2>
+    <label for="amount"><b>Amount</b></label>
+    <input type="number" step="0.01" placeholder="Enter Amount" name="amount" id="amount">
+
+    <label for="reason"><b>Reason</b></label>
+    <input type="text" placeholder="Enter Reason" name="rsn" id="reason">
+    <span hidden id="error-msg">Something went wrong! Please try again.</span>
+    <button type="submit" name="sbmit" id="sbmit" onclick="newRequest()">Submit request</button>
+  </div>
+  <div hidden id="approve-deny">
+    <h2>Action:</h2>
+    <label for="rId">Enter request id to approve or deny:</label>
+    <input type="number" placeholder="Request Id" name="rId" id="rId">
+    <button style="background-color: rgba(3, 122, 87, 0.582);" type="submit" name="sbmit-a" id="sbmit-a"
+      onclick="approveRequest()">approve</button>
+    <button style="background-color: rgb(109, 20, 38);" type="submit" name="sbmit-d" id="sbmit-d"
+      onclick="denyRequest()">deny</button>
+  </div>
+  <table id="table" class="table table-bordered">
+    <h2>Your reimbursement requests:</h2>
+    <thead>
+      <tr>
+        <th>UserId</th>
+        <th>Email</th>
+        <th>RequestId</th>
+        <th>Amount</th>
+        <th>Reason</th>
+        <th>Date</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <button type="submit" name="sbmt" id="sbmt" onclick="logout()">Logout</button>
+  <script src="login.js"></script>
+  <script src="landing.js"></script>
+</body>
+
+</html>
