@@ -5,7 +5,6 @@ function attemptLogin() {
     let userName = document.getElementById("email").value;
     let password = document.getElementById("password").value;
     let credentials = { userName, password };
-    // console.log(credentials);
     const loginUrl = "http://localhost:8080/project1-ers/login";
     performAjaxPostRequest(loginUrl, JSON.stringify(credentials), handleSuccessfulLogin, handleUnsuccessfulLogin);
 }
@@ -55,12 +54,10 @@ function logout() {
 
 function displayLoggedInUser() {
     const token = sessionStorage.getItem("token");
-    // ex. 1:ADMIN
     const parsedToken = token.split(":");
     const loggedInID = parsedToken[0];
     getUserById(loggedInID, function (usersJSON) {
         const user = JSON.parse(usersJSON);
-        // document.getElementById("greeting-header").innerText = "Welcome to Revature Bakery, "+ user.firstName + " " + user.lastName;
         document.getElementById("greeting-header").innerText = `Welcome to the ERS Portal, ${user.firstName} ${user.lastName}`;
     });
 }

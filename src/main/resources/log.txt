@@ -6,3 +6,48 @@
 2021-02-02 06:55:22 INFO  UserServlet:29 method: doGet - GET request for User with id: 7
 2021-02-02 07:05:45 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
 2021-02-02 07:05:47 INFO  UserServlet:29 method: doGet - GET request for User with id: 7
+2021-02-02 09:50:16 INFO  UserService:19 method: findUserByUsernameAndPassword - User authenticated
+2021-02-02 09:50:16 INFO  LoginServlet:30 method: doPost - Logging in..
+2021-02-02 09:50:16 INFO  LoginServlet:36 method: doPost - Logged in
+2021-02-02 09:50:16 INFO  UserServlet:29 method: doGet - GET request for User with id: 8
+2021-02-02 09:50:17 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
+2021-02-02 09:50:17 INFO  UserServlet:29 method: doGet - GET request for User with id: 8
+2021-02-02 09:50:54 INFO  RequestServlet:26 method: doPost - POST to /create
+2021-02-02 09:50:54 INFO  RequestService:14 method: addNewRequest - Adding new request..
+2021-02-02 09:50:54 INFO  RequestDaos:22 method: newRequest - Attempting to create new Request
+2021-02-02 09:50:54 INFO  RequestDaos:34 method: newRequest - Request created
+2021-02-02 09:50:54 INFO  UserServlet:29 method: doGet - GET request for User with id: 8
+2021-02-02 09:50:54 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
+2021-02-02 09:50:54 INFO  UserServlet:29 method: doGet - GET request for User with id: 8
+2021-02-02 09:51:15 INFO  UserService:19 method: findUserByUsernameAndPassword - User authenticated
+2021-02-02 09:51:15 INFO  LoginServlet:30 method: doPost - Logging in..
+2021-02-02 09:51:15 INFO  LoginServlet:36 method: doPost - Logged in
+2021-02-02 09:51:15 INFO  UserServlet:29 method: doGet - GET request for User with id: 9
+2021-02-02 09:51:15 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
+2021-02-02 09:51:15 INFO  UserServlet:29 method: doGet - GET request for User with id: 9
+2021-02-02 09:51:58 INFO  ModifyServlet:28 method: doPost - POST to /create
+2021-02-02 09:51:58 INFO  ModifyServlet:37 method: doPost - Modifying..
+2021-02-02 09:51:58 INFO  ModifyService:15 method: modify - Modifying..
+2021-02-02 09:51:58 INFO  ModifyServlet:47 method: doPost - Modified
+2021-02-02 09:51:58 INFO  UserServlet:29 method: doGet - GET request for User with id: 9
+2021-02-02 09:51:59 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
+2021-02-02 09:51:59 INFO  UserServlet:29 method: doGet - GET request for User with id: 9
+2021-02-02 09:52:10 INFO  ModifyServlet:28 method: doPost - POST to /create
+2021-02-02 09:52:10 INFO  ModifyServlet:37 method: doPost - Modifying..
+2021-02-02 09:52:10 INFO  ModifyService:15 method: modify - Modifying..
+2021-02-02 09:52:10 INFO  ModifyServlet:47 method: doPost - Modified
+2021-02-02 09:52:10 INFO  UserServlet:29 method: doGet - GET request for User with id: 9
+2021-02-02 09:52:10 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
+2021-02-02 09:52:10 INFO  UserServlet:29 method: doGet - GET request for User with id: 9
+2021-02-02 09:52:41 INFO  UserService:19 method: findUserByUsernameAndPassword - User authenticated
+2021-02-02 09:52:41 INFO  LoginServlet:30 method: doPost - Logging in..
+2021-02-02 09:52:41 INFO  LoginServlet:36 method: doPost - Logged in
+2021-02-02 09:52:41 INFO  UserServlet:29 method: doGet - GET request for User with id: 7
+2021-02-02 09:52:41 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
+2021-02-02 09:52:41 INFO  UserServlet:29 method: doGet - GET request for User with id: 7
+2021-02-02 09:53:24 INFO  UserService:19 method: findUserByUsernameAndPassword - User authenticated
+2021-02-02 09:53:24 INFO  LoginServlet:30 method: doPost - Logging in..
+2021-02-02 09:53:24 INFO  LoginServlet:36 method: doPost - Logged in
+2021-02-02 09:53:24 INFO  UserServlet:29 method: doGet - GET request for User with id: 8
+2021-02-02 09:53:24 INFO  ErsServlet:27 method: doGet - GET request to Ers Servlet
+2021-02-02 09:53:24 INFO  UserServlet:29 method: doGet - GET request for User with id: 8
