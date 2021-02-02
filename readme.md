@@ -18,7 +18,7 @@ RequestService- Accesses the RequestDaos for the servlet classes.
 UserService- Accesses the UserDaos for the servlet classes.
 
 ### Dao Classes:
-UserDaos- Accesses user data from the database
+UserDaos- Accesses user data from the database.
 
 RequestDaos- Accesses reimbursement request data from the database.
 
