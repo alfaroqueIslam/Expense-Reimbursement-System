@@ -1,4 +1,4 @@
-# Project 1 Employee Reimbursement System
+# Project 1: Employee Reimbursement System
 
 ### Servlet classes:
 
